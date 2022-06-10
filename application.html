@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application</title>
+    <link rel="stylesheet" href="style.css">
+
+
+    <link href='https://fonts.googleapis.com/css?family=GFS Didot' rel='stylesheet'> 
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <style>
+      body {
+          font-family: 'GFS Didot';font-size: 22px;    
+         background-color:#6699CC  ;
+      }
+      </style>
+</head>
+
+<body>
+    <div class="topnav">
+        <a  href="index.html">Home</a>
+        <a href="ideas.html">Ideas</a>
+        <a class="active"href="application.html">Application</a>
+        <a href="about.html">About</a>
+      </div>
+
+    <br><div class="a">
+        <h1 style = "font-family: 'Cedarville Cursive';font-size: 64px;font-style:Italic;color:white">Application<h1>
+</div>
+
+
+
+    <p style = "font-family:georgia,garamond,serif;font-size:16px;font-style:italic;">
+       Konkrets un nopietns texts
+    </p>
+    <div class="alert">
+    <div class="container mt-5">
+    <h1>Contact Us!</h1>
+    <form class="row g-3" action="https://formsubmit.co/edzus.meirans@gmail.com" method="POST">
+      <!-- Honeypot -->
+      <input type="text" name="_honey" style="display: none;">
+
+      <!-- Disable Captcha -->
+      <input type="hidden" name="_captcha" value="false">
+
+      <input type="hidden" name="_next" value="http://127.0.0.1:5500/success.html" >
+
+      <div class="col-md-6">
+        <label for="firstName" class="form-label">First Name</label>
+        <input type="text" class="form-control" name="name" id="firstName" required>
+      </div>
+      <div class="col-md-6">
+        <label for="lastName" class="form-label">Last Name</label>
+        <input type="text" class="form-control" name="Last&nbsp;Name" id="lastName" required>
+      </div>
+      <div class="col-md-8">
+        <label for="emailInfo" class="form-label">E-mail</label>
+        <input type="email" class="form-control" name="email" id="emailInfo" required>
+      </div>
+      <div class="col-md-4">
+        <label for="phoneNumber" class="form-label">Phone Number</label>
+        <input type="text" class="form-control" name="phone" id="phoneNumber" placeholder="
+        +371 26 123 456">
+      </div>
+      <div class="col-md-12">
+        <label for="comments" class="form-label">About you and what would you like to do?</label>
+        <textarea class="form-control" id="comments" name="comments,&nbsp;questions" rows="3" required></textarea>
+      </div>
+      <div class="col-md-12">
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </form>
+</div>
+</div>
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>    
+</body>
+</html>
